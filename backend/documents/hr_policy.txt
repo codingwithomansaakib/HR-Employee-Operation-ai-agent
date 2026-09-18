@@ -1,0 +1,6 @@
+HR POLICY DEMO
+Working from home: Employees may request WFH according to team and manager rules.
+Leave: Leave requests are submitted through the HR system and remain pending until approved by the authorized manager/HR.
+Casual leave: Demo employees receive a configurable casual-leave balance.
+Sick leave: Sick leave is subject to company documentation and HR policy.
+This document is sample project data and should be replaced with the organization's real HR policies.
