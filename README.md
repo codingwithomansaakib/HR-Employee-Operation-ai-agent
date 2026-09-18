@@ -178,3 +178,50 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
+
+## Run Backend
+
+Open PowerShell:
+
+```powershell
+cd backend
+
+uv sync
+uv run python -m app.main
+
+The backend will run at:
+
+http://127.0.0.1:8000
+
+cd frontend
+
+npm install
+npm run dev
+
+Demo Database
+
+HRMate AI automatically creates and seeds the demo SQLite database when the backend starts.
+
+Database:
+
+backend/hrmate.db
+
+Demo Employees
+| Employee ID | Name         | Department  | Casual Leave | Sick Leave |
+| ----------- | ------------ | ----------- | -----------: | ---------: |
+| 1001        | Rahul Kumar  | Engineering |            8 |          6 |
+| 1002        | Priya Sharma | HR          |           10 |          5 |
+| 1003        | Aman Singh   | Sales       |            6 |          7 |
+| 1004        | Neha Verma   | Finance     |           12 |          4 |
+| 1005        | Rohan Gupta  | Operations  |            7 |          8 |
+
+Demo Queries
+
+Select an employee from the employee dropdown and try:
+
+Show my employee information
+How many casual leaves do I have?
+How many sick leaves do I have?
+What is the WFH policy?
+Show my leave history
+I want leave from 2026-09-20 to 2026-09-22 for a family event
